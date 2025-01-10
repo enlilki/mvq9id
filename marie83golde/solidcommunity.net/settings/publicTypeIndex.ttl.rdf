@@ -1,0 +1,7 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:solid="http://www.w3.org/ns/solid/terms#">
+    <solid:TypeIndex rdf:about="">
+       <rdf:type rdf:resource="http://www.w3.org/ns/solid/terms#ListedDocument"/>
+    </solid:TypeIndex>
+</rdf:RDF>
