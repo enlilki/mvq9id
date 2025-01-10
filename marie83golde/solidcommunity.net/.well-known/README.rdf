@@ -1,0 +1,12 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:dct="http://purl.org/dc/terms/"
+ xmlns:stat="http://www.w3.org/ns/posix/stat#"
+ xmlns:ldp="http://www.w3.org/ns/ldp#">
+    <ldp:BasicContainer rdf:about="">
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-10T19:15:16Z</dct:modified>
+        <rdf:type rdf:resource="http://www.w3.org/ns/ldp#Container"/>
+        <stat:mtime rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1736536516.701</stat:mtime>
+        <stat:size rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4096</stat:size>
+    </ldp:BasicContainer>
+</rdf:RDF>
