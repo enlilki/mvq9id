@@ -15,5 +15,5 @@ pro:
 pro:card
     a tur:Resource, ldp:Resource;
     dct:modified "2025-01-10T19:15:16Z"^^xsd:dateTime;
-    stat:mtime 1736536516.697;
-    stat:size 735 .
+    stat:mtime 1736536516.697, 1736536516.733;
+    stat:size 735, 831 .
