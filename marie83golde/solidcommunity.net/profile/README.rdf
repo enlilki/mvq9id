@@ -1,0 +1,22 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:dct="http://purl.org/dc/terms/"
+ xmlns:ldp="http://www.w3.org/ns/ldp#"
+ xmlns:stat="http://www.w3.org/ns/posix/stat#"
+ xmlns:tur="http://www.w3.org/ns/iana/media-types/text/turtle#">
+    <ldp:BasicContainer rdf:about="">
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-10T19:15:16Z</dct:modified>
+        <rdf:type rdf:resource="http://www.w3.org/ns/ldp#Container"/>
+        <ldp:contains rdf:resource="card"/>
+        <stat:mtime rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1736536516.697</stat:mtime>
+        <stat:size rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4096</stat:size>
+    </ldp:BasicContainer>
+    <tur:Resource rdf:about="card">
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-10T19:15:16Z</dct:modified>
+        <rdf:type rdf:resource="http://www.w3.org/ns/ldp#Resource"/>
+        <stat:mtime rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1736536516.697</stat:mtime>
+        <stat:mtime rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1736536516.733</stat:mtime>
+        <stat:size rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">735</stat:size>
+        <stat:size rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">831</stat:size>
+    </tur:Resource>
+</rdf:RDF>

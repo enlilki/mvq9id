@@ -1,0 +1,21 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:ldp="http://www.w3.org/ns/ldp#"
+ xmlns:space="http://www.w3.org/ns/pim/space#"
+ xmlns:solid="http://www.w3.org/ns/solid/terms#">
+    <foaf:PersonalProfileDocument rdf:about="">
+       <foaf:maker rdf:resource="#me"/><foaf:primaryTopic rdf:resource="#me"/>
+    </foaf:PersonalProfileDocument>
+    <foaf:Person rdf:about="#me">
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <ldp:inbox rdf:resource="/inbox/"/>
+        <space:preferencesFile rdf:resource="/settings/prefs.ttl"/>
+        <space:storage rdf:resource="/"/>
+        <solid:account rdf:resource="/"/>
+        <solid:oidcIssuer rdf:resource="https://solidcommunity.net"/>
+        <solid:privateTypeIndex rdf:resource="/settings/privateTypeIndex.ttl"/>
+        <solid:publicTypeIndex rdf:resource="/settings/publicTypeIndex.ttl"/>
+        <foaf:name>Marie Golde</foaf:name>
+    </foaf:Person>
+</rdf:RDF>
