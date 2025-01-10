@@ -6,19 +6,33 @@
 @prefix stat: <http://www.w3.org/ns/posix/stat#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 @prefix m: <>.
+@prefix n0: </.well-known/>.
 @prefix inbox: </inbox/>.
 @prefix priv: </private/>.
 @prefix pro: </profile/>.
 @prefix pub: </public/>.
 @prefix set: </settings/>.
+@prefix vnd: <http://www.w3.org/ns/iana/media-types/image/vnd.microsoft.icon#>.
 @prefix c: </profile/card#>.
 @prefix pl: <http://www.w3.org/ns/iana/media-types/text/plain#>.
 
 m:
     a ldp:BasicContainer, ldp:Container, space:Storage;
     dct:modified "2025-01-10T19:15:16Z"^^xsd:dateTime;
-    ldp:contains inbox:, priv:, pro:, pub:, </robots.txt>, set:;
+    ldp:contains
+    n0:, </favicon.ico>, inbox:, priv:, pro:, pub:, </robots.txt>, set:;
+    stat:mtime 1736536516.701;
     stat:size 4096 .
+n0:
+    a ldp:BasicContainer, ldp:Container, ldp:Resource;
+    dct:modified "2025-01-10T19:15:16Z"^^xsd:dateTime;
+    stat:mtime 1736536516.701;
+    stat:size 4096 .
+</favicon.ico>
+    a vnd:Resource, ldp:Resource;
+    dct:modified "2025-01-10T19:15:16Z"^^xsd:dateTime;
+    stat:mtime 1736536516.701;
+    stat:size 4286 .
 inbox:
     a ldp:BasicContainer, ldp:Container, ldp:Resource;
     dct:modified "2025-01-10T19:15:16Z"^^xsd:dateTime;
