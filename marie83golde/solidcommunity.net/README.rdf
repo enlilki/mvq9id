@@ -1,0 +1,81 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:dct="http://purl.org/dc/terms/"
+ xmlns:ldp="http://www.w3.org/ns/ldp#"
+ xmlns:stat="http://www.w3.org/ns/posix/stat#"
+ xmlns:vnd="http://www.w3.org/ns/iana/media-types/image/vnd.microsoft.icon#"
+ xmlns:solid="http://www.w3.org/ns/solid/terms#"
+ xmlns:pl="http://www.w3.org/ns/iana/media-types/text/plain#">
+    <ldp:BasicContainer rdf:about="">
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-10T19:15:16Z</dct:modified>
+        <rdf:type rdf:resource="http://www.w3.org/ns/ldp#Container"/>
+        <rdf:type rdf:resource="http://www.w3.org/ns/pim/space#Storage"/>
+        <ldp:contains rdf:resource="/.well-known/"/>
+        <ldp:contains rdf:resource="/favicon.ico"/>
+        <ldp:contains rdf:resource="/inbox/"/>
+        <ldp:contains rdf:resource="/private/"/>
+        <ldp:contains rdf:resource="/profile/"/>
+        <ldp:contains rdf:resource="/public/"/>
+        <ldp:contains rdf:resource="/robots.txt"/>
+        <ldp:contains rdf:resource="/settings/"/>
+        <stat:mtime rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1736536516.701</stat:mtime>
+        <stat:size rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4096</stat:size>
+    </ldp:BasicContainer>
+    <ldp:BasicContainer rdf:about="/.well-known/">
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-10T19:15:16Z</dct:modified>
+        <rdf:type rdf:resource="http://www.w3.org/ns/ldp#Container"/>
+        <rdf:type rdf:resource="http://www.w3.org/ns/ldp#Resource"/>
+        <stat:mtime rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1736536516.701</stat:mtime>
+        <stat:size rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4096</stat:size>
+    </ldp:BasicContainer>
+    <vnd:Resource rdf:about="/favicon.ico">
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-10T19:15:16Z</dct:modified>
+        <rdf:type rdf:resource="http://www.w3.org/ns/ldp#Resource"/>
+        <stat:mtime rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1736536516.701</stat:mtime>
+        <stat:size rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4286</stat:size>
+    </vnd:Resource>
+    <ldp:BasicContainer rdf:about="/inbox/">
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-10T19:15:16Z</dct:modified>
+        <rdf:type rdf:resource="http://www.w3.org/ns/ldp#Container"/>
+        <rdf:type rdf:resource="http://www.w3.org/ns/ldp#Resource"/>
+        <stat:mtime rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1736536516.697</stat:mtime>
+        <stat:size rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4096</stat:size>
+    </ldp:BasicContainer>
+    <ldp:BasicContainer rdf:about="/private/">
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-10T19:15:16Z</dct:modified>
+        <rdf:type rdf:resource="http://www.w3.org/ns/ldp#Container"/>
+        <rdf:type rdf:resource="http://www.w3.org/ns/ldp#Resource"/>
+        <stat:mtime rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1736536516.697</stat:mtime>
+        <stat:size rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4096</stat:size>
+    </ldp:BasicContainer>
+    <ldp:BasicContainer rdf:about="/profile/">
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-10T19:15:16Z</dct:modified>
+        <rdf:type rdf:resource="http://www.w3.org/ns/ldp#Container"/>
+        <rdf:type rdf:resource="http://www.w3.org/ns/ldp#Resource"/>
+        <stat:mtime rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1736536516.697</stat:mtime>
+        <stat:size rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4096</stat:size>
+    </ldp:BasicContainer>
+    <rdf:Description rdf:about="/profile/card#me">
+       <solid:account rdf:resource=""/>
+    </rdf:Description>
+    <ldp:BasicContainer rdf:about="/public/">
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-10T19:15:16Z</dct:modified>
+        <rdf:type rdf:resource="http://www.w3.org/ns/ldp#Container"/>
+        <rdf:type rdf:resource="http://www.w3.org/ns/ldp#Resource"/>
+        <stat:mtime rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1736536516.693</stat:mtime>
+        <stat:size rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4096</stat:size>
+    </ldp:BasicContainer>
+    <pl:Resource rdf:about="/robots.txt">
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-10T19:15:16Z</dct:modified>
+        <rdf:type rdf:resource="http://www.w3.org/ns/ldp#Resource"/>
+        <stat:mtime rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1736536516.693</stat:mtime>
+        <stat:size rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">83</stat:size>
+    </pl:Resource>
+    <ldp:BasicContainer rdf:about="/settings/">
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-10T19:15:16Z</dct:modified>
+        <rdf:type rdf:resource="http://www.w3.org/ns/ldp#Container"/>
+        <rdf:type rdf:resource="http://www.w3.org/ns/ldp#Resource"/>
+        <stat:mtime rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1736536516.693</stat:mtime>
+        <stat:size rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4096</stat:size>
+    </ldp:BasicContainer>
+</rdf:RDF>

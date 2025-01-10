@@ -1,0 +1,40 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:dct="http://purl.org/dc/terms/"
+ xmlns:ldp="http://www.w3.org/ns/ldp#"
+ xmlns:stat="http://www.w3.org/ns/posix/stat#"
+ xmlns:tur="http://www.w3.org/ns/iana/media-types/text/turtle#">
+    <ldp:BasicContainer rdf:about="">
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-10T19:15:16Z</dct:modified>
+        <rdf:type rdf:resource="http://www.w3.org/ns/ldp#Container"/>
+        <ldp:contains rdf:resource="prefs.ttl"/>
+        <ldp:contains rdf:resource="privateTypeIndex.ttl"/>
+        <ldp:contains rdf:resource="publicTypeIndex.ttl"/>
+        <ldp:contains rdf:resource="serverSide.ttl.inactive"/>
+        <stat:mtime rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1736536516.693</stat:mtime>
+        <stat:size rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4096</stat:size>
+    </ldp:BasicContainer>
+    <tur:Resource rdf:about="prefs.ttl">
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-12T15:35:39Z</dct:modified>
+        <rdf:type rdf:resource="http://www.w3.org/ns/ldp#Resource"/>
+        <stat:mtime rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1736696139.947</stat:mtime>
+        <stat:size rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">486</stat:size>
+    </tur:Resource>
+    <tur:Resource rdf:about="privateTypeIndex.ttl">
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-10T19:15:16Z</dct:modified>
+        <rdf:type rdf:resource="http://www.w3.org/ns/ldp#Resource"/>
+        <stat:mtime rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1736536516.733</stat:mtime>
+        <stat:size rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">109</stat:size>
+    </tur:Resource>
+    <tur:Resource rdf:about="publicTypeIndex.ttl">
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-10T19:15:16Z</dct:modified>
+        <rdf:type rdf:resource="http://www.w3.org/ns/ldp#Resource"/>
+        <stat:mtime rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1736536516.733</stat:mtime>
+        <stat:size rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">107</stat:size>
+    </tur:Resource>
+    <ldp:Resource rdf:about="serverSide.ttl.inactive">
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-10T19:15:16Z</dct:modified>
+        <stat:mtime rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1736536516.689</stat:mtime>
+        <stat:size rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">307</stat:size>
+    </ldp:Resource>
+</rdf:RDF>
